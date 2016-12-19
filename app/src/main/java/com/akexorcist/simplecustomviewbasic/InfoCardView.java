@@ -73,28 +73,22 @@ public class InfoCardView extends FrameLayout implements View.OnClickListener {
         setContent(content);
     }
 
-    public void setTitle(int resId) {
-        tvTitle.setText(resId);
-    }
-
     public void setTitle(String title) {
+        this.title = title;
         tvTitle.setText(title);
     }
 
     public String getTitle() {
-        return tvTitle.getText().toString();
-    }
-
-    public void setContent(int resId) {
-        tvContent.setText(resId);
+        return this.title;
     }
 
     public void setContent(String content) {
+        this.content = content;
         tvContent.setText(content);
     }
 
     public String getContent() {
-        return tvContent.getText().toString();
+        return this.content;
     }
 
     public void setInfoClickListener(InfoClickListener listener) {
