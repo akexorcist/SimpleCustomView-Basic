@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimpleCustomView-Basic</string>
+
+    <string name="nougat_title">Android 7.0 Nougat</string>
+    <string name="nougat_content">With more ways to make Android your own, Android Nougat is out sweetest release yet.</string>
+    <string name="marshmallow_title">Android 6.0 Marshmallow</string>
+    <string name="marshmallow_content">Now there\'s s\'more to love about your mobile device: easy shortcuts to smart answers with Now on Tap, battery life that can last longer and new app permissions that give you more control.</string>
+
+</resources>
